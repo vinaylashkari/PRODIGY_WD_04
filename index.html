@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Websit e</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c97e59df6c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header"> 
+        <div class="container"></div>
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Vinay</span><br> Lashkari From DIT</h1>
+        </div>
+    </div>
+ <div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                     <img src ="images/profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello, I'm Vinay Lashkari, currently pursuing a Bachelor's in 
+                        Information Technology at Dr. D.Y. Patil Institute of Technology, Pimpri.
+                         My journey involves navigating the dynamic landscape of technology, engaging 
+                         in diverse projects that refine my problem-solving prowess. Committed to 
+                         excellence and collaboration, I aspire to contribute significantly to the 
+                         ever-evolving field of Information Technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Design</span><br>Developer</li>
+                            <li><span>Web Application</span><br>Developer</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                            <li><span>2023</span><br>Interned at PRODIGY INFOTECH</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        
+                            <li><span>2018</span><br>Secondary education from OM Vidyaniketan CBSE school</li>
+                            <li><span>2020</span><br>Higher secondary education from BMDA </li>
+                        </ul>
+                    </div>
+
+                 </div>
+             </div>
+            </div>
+        </div>
+<!----services--->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Application Design</h2>
+                <p>Skilled in creating impactful and user-centric web applications. Well-versed in transforming conceptual ideas into functional and visually appealing interfaces using HTML, CSS, and JavaScript. Keen on staying informed about industry trends and adhering to best practices in the realm of web application design.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Frontend Designing</h2>
+                <p>Proficient in creating visually engaging and responsive front-end designs for web applications through the use of HTML, CSS, and JavaScript. Capable of transforming design concepts into functional and visually pleasing interfaces. Stay abreast of industry trends and adopt best practices in the dynamic field of front-end development.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div>
+<!-----portfolio -->
+ <div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Stopwatch Web Application</h3>
+                <p>Developed a web application for a stopwatch using HTML, CSS, and JavaScript.
+                     Demonstrated proficiency in front-end technologies to create a responsive
+                      and visually appealing user interface. Implemented JavaScript for stopwatch 
+                      functionality, showcasing hands-on experience in web development and interactivity. </p>
+                    <a href="https://vinaylashkari.github.io/PRODIGY_WD_02/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>TIC TAC TOE Game</h3>
+                <p>Developed a Tic Tac Toe game with HTML, CSS, and JavaScript, highlighting 
+                    robust front-end skills and adept problem-solving in game logic. Showcased 
+                    an ability to create an engaging user interface, emphasizing attention 
+                    to detail for an enjoyable user experience. </p>
+                    <a href="https://vinaylashkari.github.io/PRODIGY_WD_03/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Weather App</h3>
+                <p>Designed and crafted a dynamic weather application using HTML, CSS, and JavaScript.
+                     Implemented an intuitive and user-friendly interface to provide real-time
+                      weather information. Demonstrated proficiency in front-end technologies, 
+                      combining aesthetics with functionality for an enhanced user experience.</p>
+                    <a href="https://vinaylashkari.github.io/PRODIGY_WD_05/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+    </div>
+    <a href="#"class="btn">See more</a>
+ 
+ </div>
+ <!--CONTACT-->
+ <div id="contact">
+    <div class="container";>
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>vinaylashklari87@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>7709109406</p>
+                <div class="social-icons">
+                    <a href="https://github.com"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://.com/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text"name="Name" placeholder="Your Name"required>
+                    <input type="email"name="Email"placeholder="Your Email"required>
+                    <textarea name="Meassage" rows="6" placeholder="Your Meassage" ></textarea>
+                    <button type="submit"  class="btn btn2">Submit</button> 
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Vinay  <i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+
+  
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");        
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+        function closemenu(){
+            sidemenu.style.right="-210px";
+        }
+
+    
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx4LYZk6Rz_EtnGwvBCQszoIoTuojCISAkF-kXAffxo2NWwXpgGSwp2iU-vpuBb5pC5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
